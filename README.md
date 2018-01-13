@@ -8,7 +8,7 @@
   
 ## Creating VM
 Created VM using vagrant and virtual box. Installed NodeJS and created synced folder.
-Everything done using Baker. [Baker file](Baker.yml)   
+Everything done using Baker. [Baker file](baker.yml)   
    
 ## Hooks
 Created a post-receive hook to push commits to production directory
