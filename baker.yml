@@ -1,0 +1,16 @@
+---
+  name: vm1
+  vagrant:
+    box: "ubuntu/trusty64"
+    memory:
+      prompt: "how much memory?"
+    network:
+      - forwarded_port:
+          guest: 3000
+          host:
+            prompt: "Port for express server?"
+      - private_network:
+          ip: 192.168.22.22
+  packages:
+    - apt:
+      - nodejs
