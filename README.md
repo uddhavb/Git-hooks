@@ -14,7 +14,8 @@ Everything done using Baker. [Baker file](baker.yml)
 Created a post-receive hook to push commits to production directory
 [Post Receive file](post-receive)    
     
-## Screencast   
-[Creating VM and Pipelines](https://youtu.be/LT02lpKRNFY)   
+## Screencast    
+Screencast on creating a computing enviroment using Baker and Pipelines 
+[Creating VM and Pipelines](https://youtu.be/R737BSn5igM)   
    
    
