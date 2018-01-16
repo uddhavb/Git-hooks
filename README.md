@@ -7,15 +7,15 @@
 [Moodle Profile](https://moodle-courses1718.wolfware.ncsu.edu/user/profile.php?id=144627)  
   
 ## Creating VM
-Created VM using vagrant and virtual box. Installed NodeJS and created synced folder.
-Everything done using Baker. [Baker file](baker.yml)   
+Using Baker created VM. Installed NodeJS and created synced folder.     
+[Baker file](baker.yml)   
    
 ## Hooks
-Created a post-receive hook to push commits to production directory
+Created a post-receive hook to push commits to production directory    
 [Post Receive file](post-receive)    
     
 ## Screencast    
-Screencast on creating a computing enviroment using Baker and Pipelines 
+Screencast on creating a computing enviroment using Baker and Pipelines     
 [Creating VM and Pipelines](https://youtu.be/R737BSn5igM)   
    
    
