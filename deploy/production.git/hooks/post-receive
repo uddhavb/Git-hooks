@@ -1,0 +1,5 @@
+#!/bin/bash
+GIT_WORK_TREE=D:/devops/deploy/production-www/ git checkout -f
+echo "Pushed to production"
+cd D:/devops/deploy/production-www/
+npm install
